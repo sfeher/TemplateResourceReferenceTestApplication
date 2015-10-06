@@ -1,0 +1,77 @@
+.underline {
+   text-decoration: underline;    
+}
+.approved {
+  background: #5cb85c;    
+  color: #fff;
+  padding: 3px;
+}
+.rejected {
+  background: #f00;    
+  color: #fff;
+  padding: 3px;
+    
+}
+.recalled {
+  background: #ec971f;    
+  color: #fff;
+  padding: 3px;
+    
+}
+
+#datatablecontainer {
+    display: block;    
+    margin-left: 4px;
+}
+
+#datatablecontainer table {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    /*border-top:1px solid #e5eff8;
+    border-right:1px solid #e5eff8;*/        
+    padding: 0px;
+    /*border-top:1px solid #a9d2fb;*/
+    background: #c4e2ff;
+    margin:1em auto;
+    margin-left: 2px;
+    margin-right: 2px;
+    background: #c4e2ff;
+    vertical-align: middle;
+    border-style: inset;
+    border:1px solid #a9d2fb;
+}
+
+
+#datatablecontainer table tr.odd, #datatablecontainer table tr.odd a 	{
+    background-color: #ebf2f9;  
+}
+#datatablecontainer table tr.even,#datatablecontainer table tr.even a 	{
+    background-color: #f4f9fe;
+}	
+
+#datatablecontainer td {
+    border-collapse: collapse;
+    /*color:#678197;*/
+    padding: 5px 5px;
+    text-align:left;
+    font: 1.1em/1.1em sans-serif;
+    border-bottom:1px solid #a9d2fb;
+
+}				
+#datatablecontainer tr:last-child td {
+    
+    border-bottom:0px;
+    
+}    
+
+#datatablecontainer td input td select  {
+    border:1px solid #a9d2fb;
+    height: 18px;
+    line-height: 1.1em;
+    border-radius: 0 0 4px 4px;
+    padding: 3px;     
+    padding-left: 5px;
+    font: 1em/1em sans-serif;    
+}
